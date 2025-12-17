@@ -1,0 +1,71 @@
+artifact_path: Model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: a2ef21d5582347369dc0df318daa6d15
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "Alanine Aminotransferase (ALT)_max", "type": "double"}, {"name":
+    "Albumin_max", "type": "double"}, {"name": "Albumin_min", "type": "double"}, {"name":
+    "Alkaline Phosphatase_max", "type": "double"}, {"name": "Alkaline Phosphatase_min",
+    "type": "double"}, {"name": "Alveolar-arterial Gradient_max", "type": "double"},
+    {"name": "Anion Gap_max", "type": "double"}, {"name": "Anion Gap_min", "type":
+    "double"}, {"name": "Asparate Aminotransferase (AST)_min", "type": "double"},
+    {"name": "Bands_max", "type": "double"}, {"name": "Base Excess_max", "type": "double"},
+    {"name": "Base Excess_min", "type": "double"}, {"name": "Bicarbonate_max", "type":
+    "double"}, {"name": "Bilirubin, Indirect_max", "type": "double"}, {"name": "Bilirubin,
+    Total_min", "type": "double"}, {"name": "Calcium, Total_max", "type": "double"},
+    {"name": "Calcium, Total_min", "type": "double"}, {"name": "Chloride_max", "type":
+    "double"}, {"name": "Chloride_min", "type": "double"}, {"name": "Creatine Kinase
+    (CK)_max", "type": "double"}, {"name": "Creatine Kinase (CK)_min", "type": "double"},
+    {"name": "Creatinine_max", "type": "double"}, {"name": "Creatinine_min", "type":
+    "double"}, {"name": "Eosinophils_max", "type": "double"}, {"name": "Fibrinogen,
+    Functional_max", "type": "double"}, {"name": "Free Calcium_min", "type": "double"},
+    {"name": "Glucose_max", "type": "double"}, {"name": "Glucose_min", "type": "double"},
+    {"name": "Hematocrit_max", "type": "double"}, {"name": "Hemoglobin_max", "type":
+    "double"}, {"name": "Hemoglobin_min", "type": "double"}, {"name": "INR(PT)_min",
+    "type": "double"}, {"name": "Lactate_max", "type": "double"}, {"name": "Lactate_min",
+    "type": "double"}, {"name": "Lactate Dehydrogenase (LD)_max", "type": "double"},
+    {"name": "Lactate Dehydrogenase (LD)_min", "type": "double"}, {"name": "Lymphocytes_max",
+    "type": "double"}, {"name": "Lymphocytes_min", "type": "double"}, {"name": "MCH_max",
+    "type": "double"}, {"name": "MCH_min", "type": "double"}, {"name": "MCHC_max",
+    "type": "double"}, {"name": "MCHC_min", "type": "double"}, {"name": "MCV_min",
+    "type": "double"}, {"name": "Magnesium_max", "type": "double"}, {"name": "Monocytes_max",
+    "type": "double"}, {"name": "Neutrophils_max", "type": "double"}, {"name": "Neutrophils_min",
+    "type": "double"}, {"name": "Osmolality, Measured_max", "type": "double"}, {"name":
+    "Osmolality, Measured_min", "type": "double"}, {"name": "Osmolality, Urine_max",
+    "type": "double"}, {"name": "Oxygen_max", "type": "double"}, {"name": "Oxygen
+    Saturation_max", "type": "double"}, {"name": "Oxygen Saturation_min", "type":
+    "double"}, {"name": "PT_max", "type": "double"}, {"name": "PT_min", "type": "double"},
+    {"name": "PTT_max", "type": "double"}, {"name": "PTT_min", "type": "double"},
+    {"name": "Phenytoin_max", "type": "double"}, {"name": "Phenytoin_min", "type":
+    "double"}, {"name": "Phosphate_max", "type": "double"}, {"name": "Phosphate_min",
+    "type": "double"}, {"name": "Platelet Count_max", "type": "double"}, {"name":
+    "Platelet Count_min", "type": "double"}, {"name": "Potassium_max", "type": "double"},
+    {"name": "Potassium_min", "type": "double"}, {"name": "RDW_max", "type": "double"},
+    {"name": "RDW_min", "type": "double"}, {"name": "Red Blood Cells_max", "type":
+    "double"}, {"name": "Sodium_max", "type": "double"}, {"name": "Sodium_min", "type":
+    "double"}, {"name": "Sodium, Urine_min", "type": "double"}, {"name": "Specific
+    Gravity_max", "type": "double"}, {"name": "Specific Gravity_min", "type": "double"},
+    {"name": "Temperature_max", "type": "double"}, {"name": "Temperature_min", "type":
+    "double"}, {"name": "Thyroid Stimulating Hormone_min", "type": "double"}, {"name":
+    "Tidal Volume_max", "type": "double"}, {"name": "Tidal Volume_min", "type": "double"},
+    {"name": "Troponin T_max", "type": "double"}, {"name": "Urea Nitrogen_max", "type":
+    "double"}, {"name": "Urea Nitrogen_min", "type": "double"}, {"name": "Vancomycin_max",
+    "type": "double"}, {"name": "WBC_max", "type": "double"}, {"name": "White Blood
+    Cells_max", "type": "double"}, {"name": "White Blood Cells_min", "type": "double"},
+    {"name": "pCO2_max", "type": "double"}, {"name": "pCO2_min", "type": "double"},
+    {"name": "pH_max", "type": "double"}, {"name": "pO2_max", "type": "double"}, {"name":
+    "pO2_min", "type": "double"}]'
+  outputs: '[{"name": 0, "type": "double"}, {"name": 1, "type": "double"}]'
+utc_time_created: '2021-08-08 13:16:05.533714'

@@ -1,0 +1,37 @@
+artifact_path: Model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: 405df86492a74e0ebfd7098e2f07ae70
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "Albumin_min", "type": "double"}, {"name": "Anion Gap_min", "type":
+    "double"}, {"name": "Base Excess_min", "type": "double"}, {"name": "Bicarbonate_max",
+    "type": "double"}, {"name": "Bilirubin, Total_min", "type": "double"}, {"name":
+    "Calcium, Total_max", "type": "double"}, {"name": "Eosinophils_max", "type": "double"},
+    {"name": "Glucose_max", "type": "double"}, {"name": "Glucose_min", "type": "double"},
+    {"name": "Lactate_max", "type": "double"}, {"name": "Lactate_min", "type": "double"},
+    {"name": "Lactate Dehydrogenase (LD)_max", "type": "double"}, {"name": "Lymphocytes_min",
+    "type": "double"}, {"name": "Neutrophils_min", "type": "double"}, {"name": "Osmolality,
+    Measured_min", "type": "double"}, {"name": "Oxygen_max", "type": "double"}, {"name":
+    "PT_max", "type": "double"}, {"name": "PT_min", "type": "double"}, {"name": "PTT_min",
+    "type": "double"}, {"name": "Platelet Count_max", "type": "double"}, {"name":
+    "Sodium_max", "type": "double"}, {"name": "Temperature_min", "type": "double"},
+    {"name": "Tidal Volume_min", "type": "double"}, {"name": "Urea Nitrogen_max",
+    "type": "double"}, {"name": "Urea Nitrogen_min", "type": "double"}, {"name": "White
+    Blood Cells_min", "type": "double"}, {"name": "pCO2_max", "type": "double"}, {"name":
+    "pCO2_min", "type": "double"}, {"name": "pO2_max", "type": "double"}, {"name":
+    "pO2_min", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+utc_time_created: '2021-09-03 02:09:51.210488'

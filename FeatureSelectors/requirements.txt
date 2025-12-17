@@ -1,0 +1,5 @@
+dcor==0.5.3
+pandas==1.2.4
+numpy==1.19.5
+joblib==1.0.1
+scikit_learn==0.24.2

@@ -1,0 +1,38 @@
+artifact_path: Model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: dabe8052e5174733aa2c71a70d03ddbc
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "Alanine Aminotransferase (ALT)_max", "type": "double"}, {"name":
+    "Albumin_max", "type": "double"}, {"name": "Albumin_min", "type": "double"}, {"name":
+    "Anion Gap_min", "type": "double"}, {"name": "Asparate Aminotransferase (AST)_min",
+    "type": "double"}, {"name": "Base Excess_min", "type": "double"}, {"name": "Bicarbonate_max",
+    "type": "double"}, {"name": "Bilirubin, Total_min", "type": "double"}, {"name":
+    "Creatine Kinase (CK)_min", "type": "double"}, {"name": "Glucose_min", "type":
+    "double"}, {"name": "Lactate_max", "type": "double"}, {"name": "Lactate_min",
+    "type": "double"}, {"name": "Lactate Dehydrogenase (LD)_min", "type": "double"},
+    {"name": "Lymphocytes_min", "type": "double"}, {"name": "Osmolality, Measured_max",
+    "type": "double"}, {"name": "Oxygen_max", "type": "double"}, {"name": "PT_min",
+    "type": "double"}, {"name": "PTT_max", "type": "double"}, {"name": "Phosphate_max",
+    "type": "double"}, {"name": "Platelet Count_max", "type": "double"}, {"name":
+    "Platelet Count_min", "type": "double"}, {"name": "Sodium_max", "type": "double"},
+    {"name": "Temperature_min", "type": "double"}, {"name": "Tidal Volume_min", "type":
+    "double"}, {"name": "Urea Nitrogen_min", "type": "double"}, {"name": "White Blood
+    Cells_min", "type": "double"}, {"name": "pCO2_max", "type": "double"}, {"name":
+    "pH_max", "type": "double"}, {"name": "pO2_max", "type": "double"}, {"name": "pO2_min",
+    "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+utc_time_created: '2021-09-02 19:43:10.736485'

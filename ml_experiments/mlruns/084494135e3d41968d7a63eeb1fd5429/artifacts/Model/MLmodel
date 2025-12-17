@@ -1,0 +1,90 @@
+artifact_path: Model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: 084494135e3d41968d7a63eeb1fd5429
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "Alanine Aminotransferase (ALT)_max", "type": "double"}, {"name":
+    "Alanine Aminotransferase (ALT)_min", "type": "double"}, {"name": "Albumin_max",
+    "type": "double"}, {"name": "Albumin_min", "type": "double"}, {"name": "Alkaline
+    Phosphatase_max", "type": "double"}, {"name": "Alkaline Phosphatase_min", "type":
+    "double"}, {"name": "Alveolar-arterial Gradient_max", "type": "double"}, {"name":
+    "Alveolar-arterial Gradient_min", "type": "double"}, {"name": "Amylase_max", "type":
+    "double"}, {"name": "Anion Gap_min", "type": "double"}, {"name": "Asparate Aminotransferase
+    (AST)_max", "type": "double"}, {"name": "Asparate Aminotransferase (AST)_min",
+    "type": "double"}, {"name": "Bands_max", "type": "double"}, {"name": "Base Excess_max",
+    "type": "double"}, {"name": "Base Excess_min", "type": "double"}, {"name": "Basophils_max",
+    "type": "double"}, {"name": "Bicarbonate_max", "type": "double"}, {"name": "Bicarbonate_min",
+    "type": "double"}, {"name": "Bilirubin, Indirect_max", "type": "double"}, {"name":
+    "Bilirubin, Total_max", "type": "double"}, {"name": "Bilirubin, Total_min", "type":
+    "double"}, {"name": "Calcium, Total_max", "type": "double"}, {"name": "Calcium,
+    Total_min", "type": "double"}, {"name": "Calculated Total CO2_max", "type": "double"},
+    {"name": "Chloride_max", "type": "double"}, {"name": "Chloride_min", "type": "double"},
+    {"name": "Chloride, Whole Blood_max", "type": "double"}, {"name": "Cholesterol,
+    LDL, Calculated_max", "type": "double"}, {"name": "Cortisol_min", "type": "double"},
+    {"name": "Creatine Kinase (CK)_min", "type": "double"}, {"name": "Creatine Kinase,
+    MB Isoenzyme_max", "type": "double"}, {"name": "Creatine Kinase, MB Isoenzyme_min",
+    "type": "double"}, {"name": "Creatinine_max", "type": "double"}, {"name": "Creatinine_min",
+    "type": "double"}, {"name": "Creatinine, Urine_max", "type": "double"}, {"name":
+    "Eosinophils_max", "type": "double"}, {"name": "Eosinophils_min", "type": "double"},
+    {"name": "Free Calcium_max", "type": "double"}, {"name": "Free Calcium_min", "type":
+    "double"}, {"name": "Glucose_max", "type": "double"}, {"name": "Glucose_min",
+    "type": "double"}, {"name": "Granulocyte Count_max", "type": "double"}, {"name":
+    "Hematocrit_max", "type": "double"}, {"name": "Hematocrit_min", "type": "double"},
+    {"name": "Hematocrit, Calculated_max", "type": "double"}, {"name": "Hemoglobin_min",
+    "type": "double"}, {"name": "INR(PT)_min", "type": "double"}, {"name": "Iron Binding
+    Capacity, Total_max", "type": "double"}, {"name": "Lactate_max", "type": "double"},
+    {"name": "Lactate_min", "type": "double"}, {"name": "Lactate Dehydrogenase (LD)_max",
+    "type": "double"}, {"name": "Lactate Dehydrogenase (LD)_min", "type": "double"},
+    {"name": "Lipase_max", "type": "double"}, {"name": "Lipase_min", "type": "double"},
+    {"name": "Lymphocytes_max", "type": "double"}, {"name": "Lymphocytes_min", "type":
+    "double"}, {"name": "MCH_max", "type": "double"}, {"name": "MCH_min", "type":
+    "double"}, {"name": "MCHC_max", "type": "double"}, {"name": "MCHC_min", "type":
+    "double"}, {"name": "MCV_max", "type": "double"}, {"name": "Magnesium_min", "type":
+    "double"}, {"name": "Monocytes_min", "type": "double"}, {"name": "Neutrophils_min",
+    "type": "double"}, {"name": "O2 Flow_max", "type": "double"}, {"name": "Osmolality,
+    Measured_max", "type": "double"}, {"name": "Osmolality, Measured_min", "type":
+    "double"}, {"name": "Oxygen_max", "type": "double"}, {"name": "Oxygen_min", "type":
+    "double"}, {"name": "Oxygen Saturation_max", "type": "double"}, {"name": "Oxygen
+    Saturation_min", "type": "double"}, {"name": "PT_max", "type": "double"}, {"name":
+    "PT_min", "type": "double"}, {"name": "PTT_max", "type": "double"}, {"name": "PTT_min",
+    "type": "double"}, {"name": "Phenytoin_max", "type": "double"}, {"name": "Phenytoin_min",
+    "type": "double"}, {"name": "Phosphate_max", "type": "double"}, {"name": "Phosphate_min",
+    "type": "double"}, {"name": "Platelet Count_max", "type": "double"}, {"name":
+    "Platelet Count_min", "type": "double"}, {"name": "Polys_min", "type": "double"},
+    {"name": "Potassium_max", "type": "double"}, {"name": "Potassium_min", "type":
+    "double"}, {"name": "Potassium, Urine_max", "type": "double"}, {"name": "RBC_max",
+    "type": "double"}, {"name": "RBC_min", "type": "double"}, {"name": "RDW_max",
+    "type": "double"}, {"name": "RDW_min", "type": "double"}, {"name": "Red Blood
+    Cells_min", "type": "double"}, {"name": "Sodium_max", "type": "double"}, {"name":
+    "Sodium_min", "type": "double"}, {"name": "Sodium, Urine_max", "type": "double"},
+    {"name": "Sodium, Urine_min", "type": "double"}, {"name": "Sodium, Whole Blood_max",
+    "type": "double"}, {"name": "Sodium, Whole Blood_min", "type": "double"}, {"name":
+    "Specific Gravity_max", "type": "double"}, {"name": "Specific Gravity_min", "type":
+    "double"}, {"name": "Temperature_max", "type": "double"}, {"name": "Temperature_min",
+    "type": "double"}, {"name": "Tidal Volume_max", "type": "double"}, {"name": "Tidal
+    Volume_min", "type": "double"}, {"name": "Troponin T_min", "type": "double"},
+    {"name": "Urea Nitrogen_max", "type": "double"}, {"name": "Urea Nitrogen_min",
+    "type": "double"}, {"name": "Urea Nitrogen, Urine_max", "type": "double"}, {"name":
+    "Urea Nitrogen, Urine_min", "type": "double"}, {"name": "Uric Acid_min", "type":
+    "double"}, {"name": "Urobilinogen_min", "type": "double"}, {"name": "Vancomycin_max",
+    "type": "double"}, {"name": "Vancomycin_min", "type": "double"}, {"name": "WBC_max",
+    "type": "double"}, {"name": "White Blood Cells_max", "type": "double"}, {"name":
+    "White Blood Cells_min", "type": "double"}, {"name": "pCO2_max", "type": "double"},
+    {"name": "pCO2_min", "type": "double"}, {"name": "pH_max", "type": "double"},
+    {"name": "pH_min", "type": "double"}, {"name": "pO2_max", "type": "double"}, {"name":
+    "pO2_min", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+utc_time_created: '2021-09-02 18:04:23.836822'

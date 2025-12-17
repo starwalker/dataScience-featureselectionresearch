@@ -1,0 +1,34 @@
+artifact_path: Model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.10
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: f687d5ccfd7b4bc78bd82a710c3936cb
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "Albumin_max", "type": "double"}, {"name": "Alveolar-arterial
+    Gradient_max", "type": "double"}, {"name": "Anion Gap_min", "type": "double"},
+    {"name": "Base Excess_min", "type": "double"}, {"name": "Bicarbonate_max", "type":
+    "double"}, {"name": "Eosinophils_max", "type": "double"}, {"name": "Glucose_max",
+    "type": "double"}, {"name": "Glucose_min", "type": "double"}, {"name": "Lactate_max",
+    "type": "double"}, {"name": "Lactate_min", "type": "double"}, {"name": "Lymphocytes_min",
+    "type": "double"}, {"name": "Osmolality, Measured_max", "type": "double"}, {"name":
+    "PT_min", "type": "double"}, {"name": "PTT_min", "type": "double"}, {"name": "Platelet
+    Count_max", "type": "double"}, {"name": "Platelet Count_min", "type": "double"},
+    {"name": "Potassium_min", "type": "double"}, {"name": "Sodium_max", "type": "double"},
+    {"name": "Temperature_min", "type": "double"}, {"name": "Tidal Volume_min", "type":
+    "double"}, {"name": "Urea Nitrogen_min", "type": "double"}, {"name": "White Blood
+    Cells_min", "type": "double"}, {"name": "pCO2_max", "type": "double"}, {"name":
+    "pO2_max", "type": "double"}, {"name": "pO2_min", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+utc_time_created: '2021-08-31 01:26:39.508483'
