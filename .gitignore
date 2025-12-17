@@ -37,7 +37,9 @@ credentials.xml
 db/
 backups/
 ml_experiments/mlruns/
+ml_experiments/experiments/
 ml/mlruns/
+ml/experiments/
 
 # ----------------------------------------------------
 #
