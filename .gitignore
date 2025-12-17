@@ -36,6 +36,8 @@ credentials.xml
 *.csv
 db/
 backups/
+ml_experiments/mlruns/
+ml/mlruns/
 
 # ----------------------------------------------------
 #
