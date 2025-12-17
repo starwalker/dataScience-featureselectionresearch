@@ -33,6 +33,7 @@ credentials.xml
 #*.sql
 *.dump
 *.bak
+*.csv
 db/
 backups/
 
